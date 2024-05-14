@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background:rgb(177, 108, 118);
+    width: 20%;
+    height: 600px;
+    max-width: 600px;
+    
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.sign p{
+    width: 40px;
+    height: 40px;
+    color: rgb(186, 70, 87);
+    background: #fff;
+    font-size: 25px;
+    margin: 20px;
+    border-radius:50% ;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.container .image {
+    display:flex;
+   justify-content: center;
+   
+}
+.container .image img{
+    margin-top: 50px;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.text h3{
+    position: relative;
+    left: 40%;
+    margin-top: 30px;
+    
+
+}
+.text p{
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 70%;
+    height: 10px;
+    background:#f53192 ;
+    border-radius: 17px;
+    cursor: pointer;
+    margin: 40px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.activity{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.activity button {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.activity button i{
+    font-size: 25px;
+    color: #f53192;
+}
