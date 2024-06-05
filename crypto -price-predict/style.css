@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(cryptocurrency-img/images/background.png);
+  background-size: contain;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+
+  color: #fff;
+}
+.navbar ul li {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+ul li img {
+  width: 50px;
+  height: 50px;
+}
+.navbar ul li:hover {
+  color: aqua;
+  cursor: pointer;
+}
+.navbar button {
+ position: absolute;
+ width: 80px;
+ height: 40px;
+ font-size: 18px;
+ top: 30px;
+ right: 8%;
+ padding: 10px;
+ padding-bottom: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: none;
+ border: 1px solid #fff;
+ color: #fff;
+ border-radius:15px;
+ outline: 0;
+ cursor: pointer;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
+}
+.navbar button:hover{
+    border: 1px solid aqua;
+}
+
+.main{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    height: auto;
+    width: 100%;
+
+}
+.main .text{
+    color:#fff ;
+    
+}
+.main .text h1{
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.main .text h1 span{
+    color: orange;
+}
+.text p{
+   margin-top: 15px;
+   font-weight: 600;
+   color: #fff;
+}
+.button{
+    margin-top: 2%;
+    width: 10%;
+    height: 40px;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.boxes{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 40%;
+
+    
+    height:11%;
+   
+
+}
+.box1 img{
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left:20px;
+    
+}
+.box1 .text{
+    position: absolute;
+  left: 40%;
+  top: 10%;
+  color: orange;
+}
+
+.box1{
+    width: 30%;
+    border:1px solid #fff ;
+    position: relative;
+    padding: 40px;
+    background: transparent;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.box2 img{
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left:20px;
+    
+}
+.box2 .text{
+    position: absolute;
+  left: 40%;
+  top: 10%;
+  color: orange;
+}
+
+.box2{
+    width: 30%;
+    border:1px solid #fff ;
+    position: relative;
+    padding: 40px;
+    background: transparent;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.box3 img{
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left:20px;
+    
+}
+.box3 .text{
+    position: absolute;
+  left: 40%;
+  top: 10%;
+  color: orange;
+}
+
+.box3{
+    width: 30%;
+    border:1px solid #fff ;
+    position: relative;
+    padding: 40px;
+    background: transparent;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
